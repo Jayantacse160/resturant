@@ -1,0 +1,259 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+/* css for mobile */
+[class*="col-"]{
+    width: 100%;
+}
+
+/* header start */
+
+.header{
+    background-color:rgb(82, 197, 82);
+    padding: 15px;
+
+}
+
+.header::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.logo{
+   
+    text-align: center;
+}
+
+.icon{
+    padding: 20px;
+    color: maroon;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.header-menu{
+    text-align: center;
+    
+    padding: 1% 7%;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .5s;
+    background-color: tomato;
+    margin: 10px;
+    border-radius: 10px;
+}
+.menu a:hover{
+    background-color: gray;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+/* header end */
+
+/* resturant start  */
+
+.banner-image{
+    background-image: url('banner-image.JPG');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+   
+}
+.banner-image::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.banner-content{
+    padding: 130px 20px;
+    text-align: center;
+}
+
+.banner-content h1{
+    font-family: 'Handlee', cursive;
+    background-color: rgb(161, 161, 39);
+    padding: 15px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.banner-content p{
+    background-color:rgb(13, 117, 13);
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    color: white;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 15px;
+    border: none;
+    border-radius:15px;
+    margin-top: 20px;
+    transition: .4s;
+    width: 150px;
+    font-size: 1.2rem;
+    background-color: rgb(13, 117, 13);
+    color: white;
+}
+
+.btn:hover{
+     transform: scale(1.2);
+     background-color:gray;
+}
+
+/* resturant end  */
+
+/* about start */
+.about{
+    padding:2% 7%;
+    text-align: center;
+    margin: 15px auto;
+}
+.about::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.about h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.about p{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+/* about end */
+
+/* food menu start */
+.food-menu{
+    padding: 2%;
+    text-align: center;
+}
+.food-menu::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.food-menu h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.card-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card-des{
+    background-color: grey;
+    line-height: 35px;
+    font-weight: bolder;
+    
+}
+.card{
+    text-align: center;
+    transition: .4s;
+    padding: 4% 5%;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-des h3{
+background-color: green;
+padding: 10px;
+color: white;
+font-size: 1.5rem;
+}
+
+/* food menu end */
+
+/* contact start */
+.contact{
+    background-color:rgb(97, 97, 167);
+    padding: 2% 3%;
+    text-align: center;
+    color: white;
+}
+.contact::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+ hr{
+     border: 2px solid white;
+     width: 35px;
+     margin: auto;
+ }
+.google-map{
+    width: 100%;
+    height:300px;
+}
+
+.contact-detail{
+    margin: 20px 0;
+}
+
+/* contact end */
+
+/* footer start */
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+}
+
+.footer-des{
+    color: white;
+}
+
+.footer-icon{
+    
+}
+.icon-style{
+    color: teal;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    transition: .4s;
+
+}
+
+.icon-style:hover{
+    transform: scale(1.3);
+    background-color: #fff;
+}
+/* footer end */
